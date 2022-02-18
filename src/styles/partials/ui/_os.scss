@@ -1,0 +1,130 @@
+.nicaos {
+  display: grid;
+  grid-template-areas: "desktop" "taskbar";
+  height: 100%;
+  grid-template-rows: calc(100% - 3rem - 2px) calc(3rem + 2px);
+
+  .desktop {
+    grid-area: desktop;
+    height: 100%;
+    overflow: hidden;
+    place-content: flex-start;
+    place-items: flex-start;
+    flex-wrap: wrap;
+    opacity: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    @include respond-to('small') {
+      flex-direction: row;
+    }
+
+    &-icon {
+      display: inline-flex;
+      flex-direction: column;
+      place-content: flex-start;
+      place-items: center;
+      width: 4rem;
+      height: 4rem;
+      margin: map_get($padding, small);
+      padding: map_get($padding, small);
+      cursor: pointer;
+      opacity: 0;
+      transform: translate3d(0, 100px, 0);
+      color: $on-surface-color;
+
+      user-select: none;
+
+      font-size: map-get($fontSizes, small);
+      font-weight: bolder;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      text-align: center;
+      text-transform: capitalize;
+
+      @include respond-to('small') {
+        margin: 0;
+        width: 4rem;
+        padding: map_get($padding, small);
+      }
+
+      &:hover {
+        background-color: rgba($on-background-color, .25);
+      }
+
+      .icon {
+        width: 2rem;
+        height: 2rem;
+        margin-bottom: map_get($padding, normal);
+
+        @include svgFill($on-surface-color);
+      }
+    }
+
+    &-background {
+      opacity: 0;
+      position: absolute;
+      width: 5rem;
+      height: 5rem;
+      top: calc(50% - 2.5rem);
+      left: calc(50% - 2.5rem);
+      border-radius: 5px;
+
+      @include respond-to('small') {
+        width: 2rem;
+        height: 2rem;
+
+        left: calc(50% - 1rem);
+      }
+    }
+  }
+
+  #console {
+    overflow: auto;
+    padding: map_get($padding, medium);
+    height: calc(100% - #{map_get($padding, medium) * 2});
+    width: calc(100% - #{map_get($padding, medium) * 2});
+    background-color: black;
+    font-family: $secondaryFont !important;
+
+    @include scrollbars(10px, $on-background-color, $background-color);
+
+    table {
+      width: 100%;
+      font-size: map-get($fontSizes, medium);
+
+      .console-description {
+        color: lawngreen;
+      }
+
+      .console-message {
+
+        b {
+          color: #82B6FF;
+        }
+      }
+    }
+  }
+}
+
+h1, h2 {
+  &:before {
+    content: "";
+    background-color: $on-background-color;
+    width: 2rem;
+    height: .5rem;
+    border-radius: 5px;
+    display: block;
+  }
+}
+
+b {
+  .emphasis {
+    color: $on-background-color;
+  }
+}
+
+.full-row {
+  grid-column: -1/1;
+}

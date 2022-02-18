@@ -1,0 +1,16 @@
+app-link {
+  display: contents;
+
+  a {
+    text-decoration: none;
+    color: $primary-color;
+    cursor: pointer;
+    display: inline-block;
+
+    fa-icon {
+      font-size: map-get($fontSizes, small);
+      margin-right: map-get($padding, extra-small);
+      color: $primary-color;
+    }
+  }
+}

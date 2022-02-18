@@ -1,0 +1,287 @@
+.taskbar {
+  position: relative;
+  grid-area: taskbar;
+  background-color: $surface-color;
+  color: $on-surface-color;
+  height: 100%;
+
+  transform: translate(0, 500px);
+
+  display: grid;
+  align-items: center;
+  grid-template-areas: "menuToggle menu windows themeToggle themeSelector today";
+  grid-template-columns: 8rem 0 1fr 2rem 0 7rem;
+
+  @include respond-to('medium') {
+    grid-template-columns: 4rem 0 1fr 2rem 0 7rem;
+  }
+
+  z-index: 9000009;
+
+  &-menu {
+    display: flex;
+    place-items: center;
+    place-content: center;
+    padding: map_get($padding, normal);
+
+    background-color: $on-background-color;
+    font-size: map_get($fontSizes, normal);
+    color: $background-color;
+    cursor: pointer;
+
+    grid-area: menuToggle;
+
+    font-weight: bold;
+
+    .icon {
+      height: 1rem;
+      width: 1rem;
+      margin-right: map_get($padding, normal);
+
+      @include svgFill($background-color);
+
+      @include respond-to('medium') {
+        margin-right: 0;
+      }
+    }
+
+    @include respond-to('medium') {
+      span {
+        display: none;
+      }
+    }
+  }
+
+  &-today {
+    grid-area: today;
+    color: $on-surface-color;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    font-size: map-get($fontSizes, small);
+    font-weight: bold;
+  }
+
+  &-windows {
+    grid-area: windows;
+    display: inline-flex;
+    overflow-x: auto;
+    height: 100%;
+
+    @include scrollbars(2.5px, $background-color, $on-background-color);
+
+    &-item {
+      height: 100%;
+      background-color: $background-color;
+      color: $on-background-color;
+      display: inline-flex;
+      place-content: center;
+      place-items: center;
+      min-width: 8rem;
+      transition: all .25s ease-out;
+      cursor: pointer;
+      font-size: map_get($fontSizes, normal);
+      font-weight: bolder;
+      opacity: 0;
+      box-shadow: 0 0 0 0 $on-background-color inset;
+      padding: 0 map-get($padding, small);
+
+      @include respond-to('medium') {
+        min-width: 3rem;
+        padding: 0;
+        span {
+          display: none;
+        }
+      }
+
+      .icon {
+        margin-right: map_get($padding, small);
+        width: 1rem;
+        height: 1rem;
+
+        @include svgFill($on-background-color);
+
+        @include respond-to('medium') {
+          margin-right: 0;
+        }
+      }
+
+      &:hover {
+        box-shadow: 0 -5px 0 0 $primary-color inset;
+      }
+
+      &.active {
+        box-shadow: 0 -100px 0 0 $primary-color inset;
+        color: $on-primary-color;
+        @include svgFill($on-primary-color);
+      }
+
+      span {
+        text-overflow: ellipsis;
+        text-align: center;
+        text-transform: capitalize;
+      }
+    }
+  }
+
+  .menu {
+    grid-area: menu;
+    display: grid;
+    grid-template-rows: 1fr 5rem;
+    min-width: 30vw;
+    min-height: 30vh;
+    position: absolute;
+    left: -8rem;
+    bottom: 3.1rem;
+
+    z-index: 9000009;
+
+    background-color: $surface-color;
+    color: $on-surface-color;
+
+    @include respond-to('medium') {
+      grid-area: none;
+      left: 0;
+      bottom: 3rem;
+      min-width: unset;
+      min-height: unset;
+      border-bottom: none;
+      position: fixed;
+      width: calc(100vw - 4px);
+      height: 95vh;
+
+    }
+
+    h3 {
+      font-size: map_get($fontSizes, medium);
+      color: $on-surface-color;
+    }
+
+    &-applications {
+      display: flex;
+      flex-direction: column;
+      width: calc(100% - #{map_get($padding, normal) *2});
+      height: calc(100% - #{map_get($padding, normal) *2});
+      padding: map_get($padding, normal);
+
+      overflow: auto;
+      @include scrollbars(10px, $on-background-color, $background-color);
+
+      &-item {
+        display: grid;
+        grid-template-columns: 1rem 1fr;
+        column-gap: map_get($padding, small);
+        margin-bottom: map_get($padding, normal);
+        align-items: center;
+        padding: map_get($padding, normal);
+        margin: 0 -#{map_get($padding, normal)};
+        cursor: pointer;
+
+        .icon {
+          width: 1rem;
+          height: 1rem;
+        }
+
+        &:hover {
+          background-color: rgba($primary-color, .1);
+        }
+      }
+    }
+
+    &-user {
+      display: grid;
+      width: calc(100% - #{map_get($padding, normal) *2});
+      height: calc(100% - #{map_get($padding, normal) *2});
+      justify-items: center;
+      grid-template-columns: 3rem auto;
+      column-gap: map_get($padding, normal);
+      padding: map_get($padding, normal);
+      background-color: $background-color;
+      color: $on-background-color;
+
+      &-icon {
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+        background-position: center left !important;
+      }
+
+      &-info {
+        display: flex;
+        flex-direction: column;
+        place-content: flex-start;
+        justify-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+
+        h4 {
+          margin: 0;
+          font-size: map_get($fontSizes, medium);
+        }
+
+        b {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+
+  &-theme {
+    grid-area: themeSelector;
+    position: absolute;
+    bottom: 4rem;
+    right: -5rem;
+    width: auto;
+    min-width: 5rem;
+
+    padding: map_get($padding, normal);
+    background-color: $surface-color;
+    color: $on-surface-color;
+
+    @include osOutline($primary-color);
+
+    &-colors {
+      display: flex;
+      flex-direction: column;
+
+      h3 {
+        margin: 0 0 map_get($padding, small) 0;
+        color: $on-surface-color;
+        font-size: map-get($fontSizes, small);
+        text-align: center;
+      }
+
+      &-picker {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: map_get($padding, small);
+        column-gap: map_get($padding, small);
+      }
+
+
+      &-item {
+        width: 2rem;
+        height: 2rem;
+        @include osOutline($on-surface-color);
+
+        cursor: pointer;
+
+        &.selected {
+          @include osOutline(white);
+        }
+      }
+    }
+  }
+
+  &-theme-toggle {
+    grid-area: themeToggle;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+    background-color: $primary-color;
+    border: 5px solid $on-surface-color;
+    border-radius: 5px;
+  }
+
+}

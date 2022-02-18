@@ -1,0 +1,21 @@
+.random-name-generator {
+  width: 100%;
+  height: 100%;
+
+  display: inline-flex;
+  place-content: center;
+  place-items: center;
+
+  flex-direction: column;
+
+  button {
+    padding: map-get($padding, normal);
+    color: $background-color;
+
+    font-family: $mainFont;
+    font-weight: bolder;
+    cursor: pointer;
+
+    @include osOutline($primary-color)
+  }
+}
