@@ -38,7 +38,7 @@ import {RandomNameGeneratorComponent} from '@applications/random-name-generator/
 import {LinkComponent} from '@components/link.component';
 import {TooltipComponent} from '@components/tooltip.component';
 import {SkillsItemComponent} from '@applications/welcome/skills-item.component';
-import { msgs } from '@applications/messaging/messages';
+import { msgs } from '@applications/messaging/messages.component';
 
 const components = [
   NicaOSComponent,

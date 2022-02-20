@@ -46,6 +46,11 @@ export const assetsToLoad: AssetMap = {
     loaded: false,
     resource: null
   },
+  msgs: {
+    path: 'messages.svg',
+    loaded: false,
+    resource: null
+  },
   about01: {
     path: 'about01.png',
     loaded: false,

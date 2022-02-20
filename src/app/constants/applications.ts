@@ -7,6 +7,7 @@ import {fs, FS_PATH_MAPPING} from '@constants/filesystem';
 import {TextEditorComponent} from '@applications/text-editor/text-editor.component';
 import {KnightsAndMonstersComponent} from '@applications/knights-and-monsters/knights-and-monsters.component';
 import {RandomNameGeneratorComponent} from '@applications/random-name-generator/random-name-generator';
+import {msgs} from '@applications/messaging/messages.component';
 
 const explorer = new Application({
   title: 'File explorer',
@@ -186,18 +187,19 @@ const knightsAndMonsters = new Application({
   }
 });
 
-const msgs = new Application({
+const messages = new Application({
   title: 'Messages',
-  component: 'msgs',
-  alt: 'View your messages',
-  icon: 'folderIcon',
-  iconContrast: 'folderIcon',
-  size: {width: '1200px', height: '1000px'},
+  component: 'msgsComponent',
+  alt: 'Who is Princeps Augustus?',
+  icon: 'msgs',
+  iconContrast: 'msgs',
+  fullScreen: false,
+  size: {width: '1000px', height: '800px'},
   fs: {
-    category: APPLICATION_CATEGORY.UTILITY,
+    category: APPLICATION_CATEGORY.INFO,
     paths: [
       fs.getPath(FS_PATH_MAPPING.APPLICATION),
-      fs.getPath(FS_PATH_MAPPING.UTILITIES),
+      fs.getPath(FS_PATH_MAPPING.INFO),
       fs.getPath(FS_PATH_MAPPING.DESKTOP)
     ]
   }
@@ -232,7 +234,7 @@ export const APPLICATIONS: { [key: string]: Application } = {
   textEditor,
   knightsAndMonsters,
   randomNameGenerator,
-  msgs
+  messages
 };
 
 
@@ -244,5 +246,5 @@ export const applicationMapping = {
   'TextEditorComponent': TextEditorComponent,
   'KnightsAndMonstersComponent': KnightsAndMonstersComponent,
   'RandomNameGeneratorComponent': RandomNameGeneratorComponent,
-  'msgs': msgs,
+  'messages': msgs,
 };
