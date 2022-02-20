@@ -186,6 +186,23 @@ const knightsAndMonsters = new Application({
   }
 });
 
+const msgs = new Application({
+  title: 'Messages',
+  component: 'msgs',
+  alt: 'View your messages',
+  icon: 'folderIcon',
+  iconContrast: 'folderIcon',
+  size: {width: '1200px', height: '1000px'},
+  fs: {
+    category: APPLICATION_CATEGORY.UTILITY,
+    paths: [
+      fs.getPath(FS_PATH_MAPPING.APPLICATION),
+      fs.getPath(FS_PATH_MAPPING.UTILITIES),
+      fs.getPath(FS_PATH_MAPPING.DESKTOP)
+    ]
+  }
+});
+
 const randomNameGenerator = new Application({
   title: 'Random Name Generator',
   component: 'RandomNameGeneratorComponent',
@@ -214,7 +231,8 @@ export const APPLICATIONS: { [key: string]: Application } = {
   explorer,
   textEditor,
   knightsAndMonsters,
-  randomNameGenerator
+  randomNameGenerator,
+  msgs
 };
 
 
@@ -226,4 +244,5 @@ export const applicationMapping = {
   'TextEditorComponent': TextEditorComponent,
   'KnightsAndMonstersComponent': KnightsAndMonstersComponent,
   'RandomNameGeneratorComponent': RandomNameGeneratorComponent,
+  'msgs': msgs,
 };

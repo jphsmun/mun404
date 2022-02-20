@@ -38,6 +38,7 @@ import {RandomNameGeneratorComponent} from '@applications/random-name-generator/
 import {LinkComponent} from '@components/link.component';
 import {TooltipComponent} from '@components/tooltip.component';
 import {SkillsItemComponent} from '@applications/welcome/skills-item.component';
+import { msgs } from '@applications/messaging/messages';
 
 const components = [
   NicaOSComponent,
@@ -55,7 +56,8 @@ const components = [
   RandomNameGeneratorComponent,
   LinkComponent,
   TooltipComponent,
-  SkillsItemComponent
+  SkillsItemComponent,
+  msgs
 ];
 
 const directives = [
