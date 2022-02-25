@@ -218,7 +218,7 @@ export const FILES: File[] = [
       name: 'Itch.io',
       alt: 'My personal profile on itch.io',
       category: FILE_CATEGORY.LINK,
-      data: {url: 'https://amazingsuprise.itch.io/'},
+      data: {url: ''},
       icon: 'itch',
       iconContrast: 'itch'
     },
@@ -235,7 +235,7 @@ export const FILES: File[] = [
       name: 'YouTube',
       alt: 'Videos about game prototypes',
       category: FILE_CATEGORY.LINK,
-      data: {url: 'https://www.youtube.com/channel/UC7NzbI1ti8ePGzmOkX5byTA'},
+      data: {url: ''},
       icon: 'youtube',
       iconContrast: 'youtube'
     },
@@ -251,7 +251,7 @@ export const FILES: File[] = [
       name: 'CodinGame',
       alt: 'My codin game profile',
       category: FILE_CATEGORY.LINK,
-      data: {url: 'https://www.codingame.com/profile/a854de0c07f757bbde5aba79f11aecf21492014'},
+      data: {url: ''},
       icon: 'codingame',
       iconContrast: 'codingame'
     },
@@ -267,7 +267,7 @@ export const FILES: File[] = [
       name: 'DEV.to',
       alt: 'Checkout my DEV.to profile!',
       category: FILE_CATEGORY.LINK,
-      data: {url: 'https://dev.to/nicolalc'},
+      data: {url: 'https://dev.to/capr0'},
       icon: 'devTo',
       iconContrast: 'devTo'
     },
@@ -281,7 +281,7 @@ export const FILES: File[] = [
       name: 'LinkedIn',
       alt: 'Checkout my Linkedin profile!',
       category: FILE_CATEGORY.LINK,
-      data: {url: 'https://www.linkedin.com/in/nicola-castellani-313b9084/'},
+      data: {url: 'https://www.linkedin.com/in/abhik-choudhary-4a1b76206/'},
       icon: 'linkedin',
       iconContrast: 'linkedin'
     },
@@ -297,7 +297,7 @@ export const FILES: File[] = [
       name: 'Twitter',
       alt: 'Checkout my Twitter profile!',
       category: FILE_CATEGORY.LINK,
-      data: {url: 'https://twitter.com/amazingsurpr1se'},
+      data: {url: ''},
       icon: 'twitterIcon',
       iconContrast: 'twitterIcon'
     },
@@ -313,7 +313,7 @@ export const FILES: File[] = [
       name: 'Reddit',
       alt: 'Checkout my Reddit profile!',
       category: FILE_CATEGORY.LINK,
-      data: {url: 'https://www.reddit.com/user/AmazingSurprise'},
+      data: {url: ''},
       icon: 'redditIcon',
       iconContrast: 'redditIcon'
     },
@@ -327,7 +327,7 @@ export const FILES: File[] = [
       name: 'HackerNoon',
       alt: 'Checkout my HackerNoon profile!',
       category: FILE_CATEGORY.LINK,
-      data: {url: 'https://hackernoon.com/u/nicolacastellanidev'},
+      data: {url: ''},
       icon: 'hackernoonIcon',
       iconContrast: 'hackernoonIcon'
     },

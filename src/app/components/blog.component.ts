@@ -19,7 +19,7 @@ import {AppState, selectLoadedAssets} from '../store/app.reducer';
           consequat.
         </div>
         <div class="box-link">
-          <a href="https://dev.to/nicolalc" target="_blank">
+          <a href="https://dev.to/capr0" target="_blank">
             visit my dev.to profile
             <div class="icon" [innerHTML]="(loadedAssets | async)?.arrowRight?.resource | safe:'html' "></div>
           </a>
@@ -42,7 +42,7 @@ import {AppState, selectLoadedAssets} from '../store/app.reducer';
             </p>
           </div>
           <div class="blog-list-item-link">
-            <a href="https://dev.to/nicolalc" target="_blank">
+            <a href="https://dev.to/capr0" target="_blank">
               READ MORE
               <div class="icon" [innerHTML]="(loadedAssets | async)?.arrowRight?.resource | safe:'html' "></div>
             </a>
@@ -64,7 +64,7 @@ import {AppState, selectLoadedAssets} from '../store/app.reducer';
             </p>
           </div>
           <div class="blog-list-item-link">
-            <a href="https://dev.to/nicolalc" target="_blank">
+            <a href="https://dev.to/capr0" target="_blank">
               READ MORE
               <div class="icon" [innerHTML]="(loadedAssets | async)?.arrowRight?.resource | safe:'html' "></div>
             </a>
@@ -86,7 +86,7 @@ import {AppState, selectLoadedAssets} from '../store/app.reducer';
             </p>
           </div>
           <div class="blog-list-item-link">
-            <a href="https://dev.to/nicolalc" target="_blank">
+            <a href="https://dev.to/capr0" target="_blank">
               READ MORE
               <div class="icon" [innerHTML]="(loadedAssets | async)?.arrowRight?.resource | safe:'html' "></div>
             </a>
