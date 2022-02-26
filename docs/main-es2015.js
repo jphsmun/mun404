@@ -128,18 +128,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppModule": function() { return /* binding */ AppModule; }
 /* harmony export */ });
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @angular/platform-browser */ 71570);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @angular/platform-browser */ 71570);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app-routing.module */ 90158);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component */ 55041);
 /* harmony import */ var _views_nica_o_s_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @views/nica-o-s.component */ 46353);
-/* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! @ngrx/store */ 17562);
+/* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! @ngrx/store */ 17562);
 /* harmony import */ var _appstore_app_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @appstore/app.reducer */ 5754);
 /* harmony import */ var _appstore_app_effects__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @appstore/app.effects */ 21593);
-/* harmony import */ var _ngrx_effects__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! @ngrx/effects */ 20275);
-/* harmony import */ var _ngrx_store_devtools__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! @ngrx/store-devtools */ 22373);
+/* harmony import */ var _ngrx_effects__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! @ngrx/effects */ 20275);
+/* harmony import */ var _ngrx_store_devtools__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! @ngrx/store-devtools */ 22373);
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../environments/environment */ 92340);
 /* harmony import */ var _services_assets_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @services/assets.service */ 76284);
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @angular/common/http */ 53882);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! @angular/common/http */ 53882);
 /* harmony import */ var _pipes_safe_pipe__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @pipes/safe.pipe */ 25436);
 /* harmony import */ var _components_taskbar_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @components/taskbar.component */ 49887);
 /* harmony import */ var _applications_file_explorer_store_file_explorer_reducer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @applications/file-explorer/store/file-explorer.reducer */ 94780);
@@ -156,8 +156,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _services_theme_service__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @services/theme.service */ 8140);
 /* harmony import */ var _services_utility_service__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @services/utility.service */ 67278);
 /* harmony import */ var _applications_text_editor_text_editor_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @applications/text-editor/text-editor.component */ 17449);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! @angular/forms */ 1707);
-/* harmony import */ var _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! @fortawesome/angular-fontawesome */ 52334);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! @angular/forms */ 1707);
+/* harmony import */ var _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! @fortawesome/angular-fontawesome */ 52334);
 /* harmony import */ var _commons_commons_module__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./commons/commons.module */ 60058);
 /* harmony import */ var _applications_text_editor_text_editor_service__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @applications/text-editor/text-editor.service */ 81975);
 /* harmony import */ var _applications_knights_and_monsters_knights_and_monsters_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @applications/knights-and-monsters/knights-and-monsters.component */ 56006);
@@ -166,7 +166,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_link_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! @components/link.component */ 70964);
 /* harmony import */ var _components_tooltip_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! @components/tooltip.component */ 85628);
 /* harmony import */ var _applications_welcome_skills_item_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @applications/welcome/skills-item.component */ 64212);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @angular/core */ 2316);
+/* harmony import */ var _applications_messaging_messages_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @applications/messaging/messages.component */ 4600);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @angular/core */ 2316);
+
 
 
 
@@ -225,7 +227,8 @@ const components = [
     _applications_random_name_generator_random_name_generator__WEBPACK_IMPORTED_MODULE_27__.RandomNameGeneratorComponent,
     _components_link_component__WEBPACK_IMPORTED_MODULE_28__.LinkComponent,
     _components_tooltip_component__WEBPACK_IMPORTED_MODULE_29__.TooltipComponent,
-    _applications_welcome_skills_item_component__WEBPACK_IMPORTED_MODULE_30__.SkillsItemComponent
+    _applications_welcome_skills_item_component__WEBPACK_IMPORTED_MODULE_30__.SkillsItemComponent,
+    _applications_messaging_messages_component__WEBPACK_IMPORTED_MODULE_31__.msgs
 ];
 const directives = [
     _directives_taskbar_item_directive__WEBPACK_IMPORTED_MODULE_14__.TaskbarItemDirective,
@@ -244,19 +247,19 @@ const services = [
 class AppModule {
 }
 AppModule.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); };
-AppModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent] });
-AppModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵdefineInjector"]({ providers: [...services], imports: [[
-            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_32__.BrowserModule,
+AppModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_32__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent] });
+AppModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_32__["ɵɵdefineInjector"]({ providers: [...services], imports: [[
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_33__.BrowserModule,
             _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule,
-            _angular_common_http__WEBPACK_IMPORTED_MODULE_33__.HttpClientModule,
-            _angular_forms__WEBPACK_IMPORTED_MODULE_34__.FormsModule,
-            _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_35__.FontAwesomeModule,
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_34__.HttpClientModule,
+            _angular_forms__WEBPACK_IMPORTED_MODULE_35__.FormsModule,
+            _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_36__.FontAwesomeModule,
             _commons_commons_module__WEBPACK_IMPORTED_MODULE_23__.CommonsModule,
-            _ngrx_store__WEBPACK_IMPORTED_MODULE_36__.StoreModule.forRoot({ app: _appstore_app_reducer__WEBPACK_IMPORTED_MODULE_3__.appReducer, fs: _applications_file_explorer_store_file_explorer_reducer__WEBPACK_IMPORTED_MODULE_9__.fileExplorerReducer }),
-            _ngrx_effects__WEBPACK_IMPORTED_MODULE_37__.EffectsModule.forRoot([_appstore_app_effects__WEBPACK_IMPORTED_MODULE_4__.AppEffects]),
-            _ngrx_store_devtools__WEBPACK_IMPORTED_MODULE_38__.StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: _environments_environment__WEBPACK_IMPORTED_MODULE_5__.environment.production })
+            _ngrx_store__WEBPACK_IMPORTED_MODULE_37__.StoreModule.forRoot({ app: _appstore_app_reducer__WEBPACK_IMPORTED_MODULE_3__.appReducer, fs: _applications_file_explorer_store_file_explorer_reducer__WEBPACK_IMPORTED_MODULE_9__.fileExplorerReducer }),
+            _ngrx_effects__WEBPACK_IMPORTED_MODULE_38__.EffectsModule.forRoot([_appstore_app_effects__WEBPACK_IMPORTED_MODULE_4__.AppEffects]),
+            _ngrx_store_devtools__WEBPACK_IMPORTED_MODULE_39__.StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: _environments_environment__WEBPACK_IMPORTED_MODULE_5__.environment.production })
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent, _views_nica_o_s_component__WEBPACK_IMPORTED_MODULE_2__.NicaOSComponent,
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_32__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent, _views_nica_o_s_component__WEBPACK_IMPORTED_MODULE_2__.NicaOSComponent,
         _components_taskbar_component__WEBPACK_IMPORTED_MODULE_8__.TaskBarComponent,
         _components_loader_component__WEBPACK_IMPORTED_MODULE_12__.LoaderComponent,
         _components_desktop_component__WEBPACK_IMPORTED_MODULE_10__.DesktopComponent,
@@ -271,14 +274,15 @@ AppModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵ�
         _applications_random_name_generator_random_name_generator__WEBPACK_IMPORTED_MODULE_27__.RandomNameGeneratorComponent,
         _components_link_component__WEBPACK_IMPORTED_MODULE_28__.LinkComponent,
         _components_tooltip_component__WEBPACK_IMPORTED_MODULE_29__.TooltipComponent,
-        _applications_welcome_skills_item_component__WEBPACK_IMPORTED_MODULE_30__.SkillsItemComponent, _directives_taskbar_item_directive__WEBPACK_IMPORTED_MODULE_14__.TaskbarItemDirective,
+        _applications_welcome_skills_item_component__WEBPACK_IMPORTED_MODULE_30__.SkillsItemComponent,
+        _applications_messaging_messages_component__WEBPACK_IMPORTED_MODULE_31__.msgs, _directives_taskbar_item_directive__WEBPACK_IMPORTED_MODULE_14__.TaskbarItemDirective,
         _directives_desktop_icon_directive__WEBPACK_IMPORTED_MODULE_11__.DesktopIconDirective,
-        _directives_button_directive__WEBPACK_IMPORTED_MODULE_26__.ButtonDirective, _pipes_safe_pipe__WEBPACK_IMPORTED_MODULE_7__.SafePipe], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_32__.BrowserModule,
+        _directives_button_directive__WEBPACK_IMPORTED_MODULE_26__.ButtonDirective, _pipes_safe_pipe__WEBPACK_IMPORTED_MODULE_7__.SafePipe], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_33__.BrowserModule,
         _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule,
-        _angular_common_http__WEBPACK_IMPORTED_MODULE_33__.HttpClientModule,
-        _angular_forms__WEBPACK_IMPORTED_MODULE_34__.FormsModule,
-        _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_35__.FontAwesomeModule,
-        _commons_commons_module__WEBPACK_IMPORTED_MODULE_23__.CommonsModule, _ngrx_store__WEBPACK_IMPORTED_MODULE_36__.StoreRootModule, _ngrx_effects__WEBPACK_IMPORTED_MODULE_37__.EffectsRootModule, _ngrx_store_devtools__WEBPACK_IMPORTED_MODULE_38__.StoreDevtoolsModule] }); })();
+        _angular_common_http__WEBPACK_IMPORTED_MODULE_34__.HttpClientModule,
+        _angular_forms__WEBPACK_IMPORTED_MODULE_35__.FormsModule,
+        _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_36__.FontAwesomeModule,
+        _commons_commons_module__WEBPACK_IMPORTED_MODULE_23__.CommonsModule, _ngrx_store__WEBPACK_IMPORTED_MODULE_37__.StoreRootModule, _ngrx_effects__WEBPACK_IMPORTED_MODULE_38__.EffectsRootModule, _ngrx_store_devtools__WEBPACK_IMPORTED_MODULE_39__.StoreDevtoolsModule] }); })();
 
 
 /***/ }),
@@ -1037,6 +1041,107 @@ KnightsAndMonstersComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTE
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵstyleProp"]("background-image", "url(assets/" + ((tmp_10_0 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵpipeBind1"](29, 45, ctx.loadedAssets$)) == null ? null : tmp_10_0.km_playButton == null ? null : tmp_10_0.km_playButton.path) + ")");
     } }, directives: [_components_tooltip_component__WEBPACK_IMPORTED_MODULE_1__.TooltipComponent, _directives_button_directive__WEBPACK_IMPORTED_MODULE_2__.ButtonDirective], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_8__.AsyncPipe, _pipes_safe_pipe__WEBPACK_IMPORTED_MODULE_3__.SafePipe], encapsulation: 2, changeDetection: 0 });
+
+
+/***/ }),
+
+/***/ 4600:
+/*!**************************************************************!*\
+  !*** ./src/app/applications/messaging/messages.component.ts ***!
+  \**************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "msgs": function() { return /* binding */ msgs; }
+/* harmony export */ });
+/* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ngrx/store */ 17562);
+/* harmony import */ var _appstore_app_reducer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @appstore/app.reducer */ 5754);
+/* harmony import */ var _fortawesome_free_solid_svg_icons_faDownload__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons/faDownload */ 73739);
+/* harmony import */ var _fortawesome_free_solid_svg_icons_faPhone__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons/faPhone */ 35812);
+/* harmony import */ var _fortawesome_free_solid_svg_icons_faMailBulk__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons/faMailBulk */ 28229);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 2316);
+
+
+
+
+
+
+
+const _c0 = ["welcomeRight"];
+class msgs {
+    constructor(store$) {
+        this.store$ = store$;
+        this.loadedAssets$ = this.store$.pipe((0,_ngrx_store__WEBPACK_IMPORTED_MODULE_1__.select)(_appstore_app_reducer__WEBPACK_IMPORTED_MODULE_0__.selectLoadedAssets));
+        this.isIntroVisible = true;
+        this.isEducationVisible = false;
+        this.isWorkVisible = false;
+        this.faDownload = _fortawesome_free_solid_svg_icons_faDownload__WEBPACK_IMPORTED_MODULE_2__.faDownload;
+        this.faPhone = _fortawesome_free_solid_svg_icons_faPhone__WEBPACK_IMPORTED_MODULE_3__.faPhone;
+        this.faMail = _fortawesome_free_solid_svg_icons_faMailBulk__WEBPACK_IMPORTED_MODULE_4__.faMailBulk;
+        this.ids = ['intro', 'Classified', 'education', 'works', 'skills', 'more'];
+    }
+    scrollTo(elementId) {
+        this.welcomeRight.nativeElement.querySelector(`#${elementId}`).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }
+    trackByFn(it, i) { return i; }
+    onScroll($event) {
+        clearTimeout(this.scrollTimeout);
+        this.scrollTimeout = setTimeout(() => {
+            this.afterScroll($event.target.scrollTop);
+        }, 100);
+    }
+    afterScroll(scrollTop) {
+        this.ids.forEach(id => {
+            const element = document.querySelector(`#${id}`);
+            if (!element) {
+                return;
+            }
+            if (scrollTop >= element.offsetTop - 500) {
+                document.querySelector(`.${id}-anchor`).classList.add('active');
+            }
+            else {
+                document.querySelector(`.${id}-anchor`).classList.remove('active');
+            }
+        });
+    }
+}
+msgs.ɵfac = function msgs_Factory(t) { return new (t || msgs)(_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_ngrx_store__WEBPACK_IMPORTED_MODULE_1__.Store)); };
+msgs.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({ type: msgs, selectors: [["messages"]], viewQuery: function msgs_Query(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵviewQuery"](_c0, 7);
+    } if (rf & 2) {
+        let _t;
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵloadQuery"]()) && (ctx.welcomeRight = _t.first);
+    } }, decls: 14, vars: 0, consts: [[1, "messages"], [1, "app-welcome-left"], [1, "intro-anchor", "active", 3, "click"], [1, "app-welcome-right", 3, "scroll"], ["welcomeRight", ""], ["id", "intro"], ["id", "text1"]], template: function msgs_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](2, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](3, "Pages");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](4, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](5, "li", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function msgs_Template_li_click_5_listener() { return ctx.scrollTo("intro"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6, "\u26AB Intro ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "div", 3, 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("scroll", function msgs_Template_div_scroll_7_listener($event) { return ctx.onScroll($event); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](9, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](10, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](11, "Welcome Agent Augustus");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](12, "span", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](13, " How are you doing this fine day? ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+    } }, encapsulation: 2, changeDetection: 0 });
 
 
 /***/ }),
@@ -3076,6 +3181,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _applications_text_editor_text_editor_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @applications/text-editor/text-editor.component */ 17449);
 /* harmony import */ var _applications_knights_and_monsters_knights_and_monsters_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @applications/knights-and-monsters/knights-and-monsters.component */ 56006);
 /* harmony import */ var _applications_random_name_generator_random_name_generator__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @applications/random-name-generator/random-name-generator */ 95800);
+/* harmony import */ var _applications_messaging_messages_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @applications/messaging/messages.component */ 4600);
+
 
 
 
@@ -3253,6 +3360,23 @@ const knightsAndMonsters = new _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_3
         ]
     }
 });
+const messages = new _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_3__.Application({
+    title: 'Messages',
+    component: 'msgsComponent',
+    alt: 'Who is Princeps Augustus?',
+    icon: 'msgs',
+    iconContrast: 'msgs',
+    fullScreen: false,
+    size: { width: '1000px', height: '800px' },
+    fs: {
+        category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_3__.APPLICATION_CATEGORY.INFO,
+        paths: [
+            _constants_filesystem__WEBPACK_IMPORTED_MODULE_5__.fs.getPath(_constants_filesystem__WEBPACK_IMPORTED_MODULE_5__.FS_PATH_MAPPING.APPLICATION),
+            _constants_filesystem__WEBPACK_IMPORTED_MODULE_5__.fs.getPath(_constants_filesystem__WEBPACK_IMPORTED_MODULE_5__.FS_PATH_MAPPING.INFO),
+            _constants_filesystem__WEBPACK_IMPORTED_MODULE_5__.fs.getPath(_constants_filesystem__WEBPACK_IMPORTED_MODULE_5__.FS_PATH_MAPPING.DESKTOP)
+        ]
+    }
+});
 const randomNameGenerator = new _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_3__.Application({
     title: 'Random Name Generator',
     component: 'RandomNameGeneratorComponent',
@@ -3280,7 +3404,8 @@ const APPLICATIONS = {
     explorer,
     textEditor,
     knightsAndMonsters,
-    randomNameGenerator
+    randomNameGenerator,
+    messages
 };
 const applicationMapping = {
     'WelcomeComponent': _applications_welcome_welcome_component__WEBPACK_IMPORTED_MODULE_4__.WelcomeComponent,
@@ -3290,6 +3415,7 @@ const applicationMapping = {
     'TextEditorComponent': _applications_text_editor_text_editor_component__WEBPACK_IMPORTED_MODULE_6__.TextEditorComponent,
     'KnightsAndMonstersComponent': _applications_knights_and_monsters_knights_and_monsters_component__WEBPACK_IMPORTED_MODULE_7__.KnightsAndMonstersComponent,
     'RandomNameGeneratorComponent': _applications_random_name_generator_random_name_generator__WEBPACK_IMPORTED_MODULE_8__.RandomNameGeneratorComponent,
+    'messages': _applications_messaging_messages_component__WEBPACK_IMPORTED_MODULE_9__.msgs,
 };
 
 
@@ -3349,6 +3475,11 @@ const assetsToLoad = {
     },
     home: {
         path: 'home.svg',
+        loaded: false,
+        resource: null
+    },
+    msgs: {
+        path: 'messages.svg',
         loaded: false,
         resource: null
     },
@@ -3794,7 +3925,7 @@ const FILES = [
             name: 'Itch.io',
             alt: 'My personal profile on itch.io',
             category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_0__.FILE_CATEGORY.LINK,
-            data: { url: 'https://amazingsuprise.itch.io/' },
+            data: { url: '' },
             icon: 'itch',
             iconContrast: 'itch'
         },
@@ -3811,7 +3942,7 @@ const FILES = [
             name: 'YouTube',
             alt: 'Videos about game prototypes',
             category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_0__.FILE_CATEGORY.LINK,
-            data: { url: 'https://www.youtube.com/channel/UC7NzbI1ti8ePGzmOkX5byTA' },
+            data: { url: '' },
             icon: 'youtube',
             iconContrast: 'youtube'
         },
@@ -3828,7 +3959,7 @@ const FILES = [
             name: 'CodinGame',
             alt: 'My codin game profile',
             category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_0__.FILE_CATEGORY.LINK,
-            data: { url: 'https://www.codingame.com/profile/a854de0c07f757bbde5aba79f11aecf21492014' },
+            data: { url: '' },
             icon: 'codingame',
             iconContrast: 'codingame'
         },
@@ -3845,7 +3976,7 @@ const FILES = [
             name: 'DEV.to',
             alt: 'Checkout my DEV.to profile!',
             category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_0__.FILE_CATEGORY.LINK,
-            data: { url: 'https://dev.to/nicolalc' },
+            data: { url: 'https://dev.to/capr0' },
             icon: 'devTo',
             iconContrast: 'devTo'
         },
@@ -3859,7 +3990,7 @@ const FILES = [
             name: 'LinkedIn',
             alt: 'Checkout my Linkedin profile!',
             category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_0__.FILE_CATEGORY.LINK,
-            data: { url: 'https://www.linkedin.com/in/nicola-castellani-313b9084/' },
+            data: { url: 'https://www.linkedin.com/in/abhik-choudhary-4a1b76206/' },
             icon: 'linkedin',
             iconContrast: 'linkedin'
         },
@@ -3876,7 +4007,7 @@ const FILES = [
             name: 'Twitter',
             alt: 'Checkout my Twitter profile!',
             category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_0__.FILE_CATEGORY.LINK,
-            data: { url: 'https://twitter.com/amazingsurpr1se' },
+            data: { url: '' },
             icon: 'twitterIcon',
             iconContrast: 'twitterIcon'
         },
@@ -3893,7 +4024,7 @@ const FILES = [
             name: 'Reddit',
             alt: 'Checkout my Reddit profile!',
             category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_0__.FILE_CATEGORY.LINK,
-            data: { url: 'https://www.reddit.com/user/AmazingSurprise' },
+            data: { url: '' },
             icon: 'redditIcon',
             iconContrast: 'redditIcon'
         },
@@ -3907,7 +4038,7 @@ const FILES = [
             name: 'HackerNoon',
             alt: 'Checkout my HackerNoon profile!',
             category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_0__.FILE_CATEGORY.LINK,
-            data: { url: 'https://hackernoon.com/u/nicolacastellanidev' },
+            data: { url: '' },
             icon: 'hackernoonIcon',
             iconContrast: 'hackernoonIcon'
         },

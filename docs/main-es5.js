@@ -274,7 +274,7 @@
       /* harmony import */
 
 
-      var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(
+      var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(
       /*! @angular/platform-browser */
       71570);
       /* harmony import */
@@ -298,7 +298,7 @@
       /* harmony import */
 
 
-      var _ngrx_store__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(
+      var _ngrx_store__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(
       /*! @ngrx/store */
       17562);
       /* harmony import */
@@ -316,13 +316,13 @@
       /* harmony import */
 
 
-      var _ngrx_effects__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(
+      var _ngrx_effects__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(
       /*! @ngrx/effects */
       20275);
       /* harmony import */
 
 
-      var _ngrx_store_devtools__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(
+      var _ngrx_store_devtools__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(
       /*! @ngrx/store-devtools */
       22373);
       /* harmony import */
@@ -340,7 +340,7 @@
       /* harmony import */
 
 
-      var _angular_common_http__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(
+      var _angular_common_http__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(
       /*! @angular/common/http */
       53882);
       /* harmony import */
@@ -442,13 +442,13 @@
       /* harmony import */
 
 
-      var _angular_forms__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(
+      var _angular_forms__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(
       /*! @angular/forms */
       1707);
       /* harmony import */
 
 
-      var _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(
+      var _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(
       /*! @fortawesome/angular-fontawesome */
       52334);
       /* harmony import */
@@ -502,11 +502,17 @@
       /* harmony import */
 
 
-      var _angular_core__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(
+      var _applications_messaging_messages_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(
+      /*! @applications/messaging/messages.component */
+      4600);
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(
       /*! @angular/core */
       2316);
 
-      var components = [_views_nica_o_s_component__WEBPACK_IMPORTED_MODULE_2__.NicaOSComponent, _components_taskbar_component__WEBPACK_IMPORTED_MODULE_8__.TaskBarComponent, _components_loader_component__WEBPACK_IMPORTED_MODULE_12__.LoaderComponent, _components_desktop_component__WEBPACK_IMPORTED_MODULE_10__.DesktopComponent, _components_window_component__WEBPACK_IMPORTED_MODULE_15__.WindowComponent, _applications_welcome_welcome_component__WEBPACK_IMPORTED_MODULE_18__.WelcomeComponent, _applications_console_component__WEBPACK_IMPORTED_MODULE_13__.ConsoleComponent, _components_menu_component__WEBPACK_IMPORTED_MODULE_19__.MenuComponent, _applications_browser_component__WEBPACK_IMPORTED_MODULE_16__.BrowserComponent, _applications_file_explorer_file_explorer_component__WEBPACK_IMPORTED_MODULE_17__.FileExplorerComponent, _applications_text_editor_text_editor_component__WEBPACK_IMPORTED_MODULE_22__.TextEditorComponent, _applications_knights_and_monsters_knights_and_monsters_component__WEBPACK_IMPORTED_MODULE_25__.KnightsAndMonstersComponent, _applications_random_name_generator_random_name_generator__WEBPACK_IMPORTED_MODULE_27__.RandomNameGeneratorComponent, _components_link_component__WEBPACK_IMPORTED_MODULE_28__.LinkComponent, _components_tooltip_component__WEBPACK_IMPORTED_MODULE_29__.TooltipComponent, _applications_welcome_skills_item_component__WEBPACK_IMPORTED_MODULE_30__.SkillsItemComponent];
+      var components = [_views_nica_o_s_component__WEBPACK_IMPORTED_MODULE_2__.NicaOSComponent, _components_taskbar_component__WEBPACK_IMPORTED_MODULE_8__.TaskBarComponent, _components_loader_component__WEBPACK_IMPORTED_MODULE_12__.LoaderComponent, _components_desktop_component__WEBPACK_IMPORTED_MODULE_10__.DesktopComponent, _components_window_component__WEBPACK_IMPORTED_MODULE_15__.WindowComponent, _applications_welcome_welcome_component__WEBPACK_IMPORTED_MODULE_18__.WelcomeComponent, _applications_console_component__WEBPACK_IMPORTED_MODULE_13__.ConsoleComponent, _components_menu_component__WEBPACK_IMPORTED_MODULE_19__.MenuComponent, _applications_browser_component__WEBPACK_IMPORTED_MODULE_16__.BrowserComponent, _applications_file_explorer_file_explorer_component__WEBPACK_IMPORTED_MODULE_17__.FileExplorerComponent, _applications_text_editor_text_editor_component__WEBPACK_IMPORTED_MODULE_22__.TextEditorComponent, _applications_knights_and_monsters_knights_and_monsters_component__WEBPACK_IMPORTED_MODULE_25__.KnightsAndMonstersComponent, _applications_random_name_generator_random_name_generator__WEBPACK_IMPORTED_MODULE_27__.RandomNameGeneratorComponent, _components_link_component__WEBPACK_IMPORTED_MODULE_28__.LinkComponent, _components_tooltip_component__WEBPACK_IMPORTED_MODULE_29__.TooltipComponent, _applications_welcome_skills_item_component__WEBPACK_IMPORTED_MODULE_30__.SkillsItemComponent, _applications_messaging_messages_component__WEBPACK_IMPORTED_MODULE_31__.msgs];
       var directives = [_directives_taskbar_item_directive__WEBPACK_IMPORTED_MODULE_14__.TaskbarItemDirective, _directives_desktop_icon_directive__WEBPACK_IMPORTED_MODULE_11__.DesktopIconDirective, _directives_button_directive__WEBPACK_IMPORTED_MODULE_26__.ButtonDirective];
       var pipes = [_pipes_safe_pipe__WEBPACK_IMPORTED_MODULE_7__.SafePipe];
       var services = [_services_theme_service__WEBPACK_IMPORTED_MODULE_20__.ThemeService, _services_assets_service__WEBPACK_IMPORTED_MODULE_6__.AssetsService, _services_utility_service__WEBPACK_IMPORTED_MODULE_21__.UtilityService, _applications_text_editor_text_editor_service__WEBPACK_IMPORTED_MODULE_24__.TextEditorService];
@@ -519,25 +525,25 @@
         return new (t || _AppModule)();
       };
 
-      _AppModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵdefineNgModule"]({
+      _AppModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_32__["ɵɵdefineNgModule"]({
         type: _AppModule,
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent]
       });
-      _AppModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵdefineInjector"]({
+      _AppModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_32__["ɵɵdefineInjector"]({
         providers: [].concat(services),
-        imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_32__.BrowserModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_33__.HttpClientModule, _angular_forms__WEBPACK_IMPORTED_MODULE_34__.FormsModule, _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_35__.FontAwesomeModule, _commons_commons_module__WEBPACK_IMPORTED_MODULE_23__.CommonsModule, _ngrx_store__WEBPACK_IMPORTED_MODULE_36__.StoreModule.forRoot({
+        imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_33__.BrowserModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_34__.HttpClientModule, _angular_forms__WEBPACK_IMPORTED_MODULE_35__.FormsModule, _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_36__.FontAwesomeModule, _commons_commons_module__WEBPACK_IMPORTED_MODULE_23__.CommonsModule, _ngrx_store__WEBPACK_IMPORTED_MODULE_37__.StoreModule.forRoot({
           app: _appstore_app_reducer__WEBPACK_IMPORTED_MODULE_3__.appReducer,
           fs: _applications_file_explorer_store_file_explorer_reducer__WEBPACK_IMPORTED_MODULE_9__.fileExplorerReducer
-        }), _ngrx_effects__WEBPACK_IMPORTED_MODULE_37__.EffectsModule.forRoot([_appstore_app_effects__WEBPACK_IMPORTED_MODULE_4__.AppEffects]), _ngrx_store_devtools__WEBPACK_IMPORTED_MODULE_38__.StoreDevtoolsModule.instrument({
+        }), _ngrx_effects__WEBPACK_IMPORTED_MODULE_38__.EffectsModule.forRoot([_appstore_app_effects__WEBPACK_IMPORTED_MODULE_4__.AppEffects]), _ngrx_store_devtools__WEBPACK_IMPORTED_MODULE_39__.StoreDevtoolsModule.instrument({
           maxAge: 25,
           logOnly: _environments_environment__WEBPACK_IMPORTED_MODULE_5__.environment.production
         })]]
       });
 
       (function () {
-        (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵsetNgModuleScope"](_AppModule, {
-          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent, _views_nica_o_s_component__WEBPACK_IMPORTED_MODULE_2__.NicaOSComponent, _components_taskbar_component__WEBPACK_IMPORTED_MODULE_8__.TaskBarComponent, _components_loader_component__WEBPACK_IMPORTED_MODULE_12__.LoaderComponent, _components_desktop_component__WEBPACK_IMPORTED_MODULE_10__.DesktopComponent, _components_window_component__WEBPACK_IMPORTED_MODULE_15__.WindowComponent, _applications_welcome_welcome_component__WEBPACK_IMPORTED_MODULE_18__.WelcomeComponent, _applications_console_component__WEBPACK_IMPORTED_MODULE_13__.ConsoleComponent, _components_menu_component__WEBPACK_IMPORTED_MODULE_19__.MenuComponent, _applications_browser_component__WEBPACK_IMPORTED_MODULE_16__.BrowserComponent, _applications_file_explorer_file_explorer_component__WEBPACK_IMPORTED_MODULE_17__.FileExplorerComponent, _applications_text_editor_text_editor_component__WEBPACK_IMPORTED_MODULE_22__.TextEditorComponent, _applications_knights_and_monsters_knights_and_monsters_component__WEBPACK_IMPORTED_MODULE_25__.KnightsAndMonstersComponent, _applications_random_name_generator_random_name_generator__WEBPACK_IMPORTED_MODULE_27__.RandomNameGeneratorComponent, _components_link_component__WEBPACK_IMPORTED_MODULE_28__.LinkComponent, _components_tooltip_component__WEBPACK_IMPORTED_MODULE_29__.TooltipComponent, _applications_welcome_skills_item_component__WEBPACK_IMPORTED_MODULE_30__.SkillsItemComponent, _directives_taskbar_item_directive__WEBPACK_IMPORTED_MODULE_14__.TaskbarItemDirective, _directives_desktop_icon_directive__WEBPACK_IMPORTED_MODULE_11__.DesktopIconDirective, _directives_button_directive__WEBPACK_IMPORTED_MODULE_26__.ButtonDirective, _pipes_safe_pipe__WEBPACK_IMPORTED_MODULE_7__.SafePipe],
-          imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_32__.BrowserModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_33__.HttpClientModule, _angular_forms__WEBPACK_IMPORTED_MODULE_34__.FormsModule, _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_35__.FontAwesomeModule, _commons_commons_module__WEBPACK_IMPORTED_MODULE_23__.CommonsModule, _ngrx_store__WEBPACK_IMPORTED_MODULE_36__.StoreRootModule, _ngrx_effects__WEBPACK_IMPORTED_MODULE_37__.EffectsRootModule, _ngrx_store_devtools__WEBPACK_IMPORTED_MODULE_38__.StoreDevtoolsModule]
+        (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_32__["ɵɵsetNgModuleScope"](_AppModule, {
+          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent, _views_nica_o_s_component__WEBPACK_IMPORTED_MODULE_2__.NicaOSComponent, _components_taskbar_component__WEBPACK_IMPORTED_MODULE_8__.TaskBarComponent, _components_loader_component__WEBPACK_IMPORTED_MODULE_12__.LoaderComponent, _components_desktop_component__WEBPACK_IMPORTED_MODULE_10__.DesktopComponent, _components_window_component__WEBPACK_IMPORTED_MODULE_15__.WindowComponent, _applications_welcome_welcome_component__WEBPACK_IMPORTED_MODULE_18__.WelcomeComponent, _applications_console_component__WEBPACK_IMPORTED_MODULE_13__.ConsoleComponent, _components_menu_component__WEBPACK_IMPORTED_MODULE_19__.MenuComponent, _applications_browser_component__WEBPACK_IMPORTED_MODULE_16__.BrowserComponent, _applications_file_explorer_file_explorer_component__WEBPACK_IMPORTED_MODULE_17__.FileExplorerComponent, _applications_text_editor_text_editor_component__WEBPACK_IMPORTED_MODULE_22__.TextEditorComponent, _applications_knights_and_monsters_knights_and_monsters_component__WEBPACK_IMPORTED_MODULE_25__.KnightsAndMonstersComponent, _applications_random_name_generator_random_name_generator__WEBPACK_IMPORTED_MODULE_27__.RandomNameGeneratorComponent, _components_link_component__WEBPACK_IMPORTED_MODULE_28__.LinkComponent, _components_tooltip_component__WEBPACK_IMPORTED_MODULE_29__.TooltipComponent, _applications_welcome_skills_item_component__WEBPACK_IMPORTED_MODULE_30__.SkillsItemComponent, _applications_messaging_messages_component__WEBPACK_IMPORTED_MODULE_31__.msgs, _directives_taskbar_item_directive__WEBPACK_IMPORTED_MODULE_14__.TaskbarItemDirective, _directives_desktop_icon_directive__WEBPACK_IMPORTED_MODULE_11__.DesktopIconDirective, _directives_button_directive__WEBPACK_IMPORTED_MODULE_26__.ButtonDirective, _pipes_safe_pipe__WEBPACK_IMPORTED_MODULE_7__.SafePipe],
+          imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_33__.BrowserModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_34__.HttpClientModule, _angular_forms__WEBPACK_IMPORTED_MODULE_35__.FormsModule, _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_36__.FontAwesomeModule, _commons_commons_module__WEBPACK_IMPORTED_MODULE_23__.CommonsModule, _ngrx_store__WEBPACK_IMPORTED_MODULE_37__.StoreRootModule, _ngrx_effects__WEBPACK_IMPORTED_MODULE_38__.EffectsRootModule, _ngrx_store_devtools__WEBPACK_IMPORTED_MODULE_39__.StoreDevtoolsModule]
         });
       })();
       /***/
@@ -2062,6 +2068,206 @@
     },
 
     /***/
+    4600: function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export */
+
+
+      __webpack_require__.d(__webpack_exports__, {
+        /* harmony export */
+        "msgs": function msgs() {
+          return (
+            /* binding */
+            _msgs
+          );
+        }
+        /* harmony export */
+
+      });
+      /* harmony import */
+
+
+      var _ngrx_store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! @ngrx/store */
+      17562);
+      /* harmony import */
+
+
+      var _appstore_app_reducer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! @appstore/app.reducer */
+      5754);
+      /* harmony import */
+
+
+      var _fortawesome_free_solid_svg_icons_faDownload__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! @fortawesome/free-solid-svg-icons/faDownload */
+      73739);
+      /* harmony import */
+
+
+      var _fortawesome_free_solid_svg_icons_faPhone__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! @fortawesome/free-solid-svg-icons/faPhone */
+      35812);
+      /* harmony import */
+
+
+      var _fortawesome_free_solid_svg_icons_faMailBulk__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      /*! @fortawesome/free-solid-svg-icons/faMailBulk */
+      28229);
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      /*! @angular/core */
+      2316);
+
+      var _c0 = ["welcomeRight"];
+
+      var _msgs = /*#__PURE__*/function () {
+        function _msgs(store$) {
+          _classCallCheck(this, _msgs);
+
+          this.store$ = store$;
+          this.loadedAssets$ = this.store$.pipe((0, _ngrx_store__WEBPACK_IMPORTED_MODULE_1__.select)(_appstore_app_reducer__WEBPACK_IMPORTED_MODULE_0__.selectLoadedAssets));
+          this.isIntroVisible = true;
+          this.isEducationVisible = false;
+          this.isWorkVisible = false;
+          this.faDownload = _fortawesome_free_solid_svg_icons_faDownload__WEBPACK_IMPORTED_MODULE_2__.faDownload;
+          this.faPhone = _fortawesome_free_solid_svg_icons_faPhone__WEBPACK_IMPORTED_MODULE_3__.faPhone;
+          this.faMail = _fortawesome_free_solid_svg_icons_faMailBulk__WEBPACK_IMPORTED_MODULE_4__.faMailBulk;
+          this.ids = ['intro', 'Classified', 'education', 'works', 'skills', 'more'];
+        }
+
+        _createClass(_msgs, [{
+          key: "scrollTo",
+          value: function scrollTo(elementId) {
+            this.welcomeRight.nativeElement.querySelector("#".concat(elementId)).scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        }, {
+          key: "trackByFn",
+          value: function trackByFn(it, i) {
+            return i;
+          }
+        }, {
+          key: "onScroll",
+          value: function onScroll($event) {
+            var _this2 = this;
+
+            clearTimeout(this.scrollTimeout);
+            this.scrollTimeout = setTimeout(function () {
+              _this2.afterScroll($event.target.scrollTop);
+            }, 100);
+          }
+        }, {
+          key: "afterScroll",
+          value: function afterScroll(scrollTop) {
+            this.ids.forEach(function (id) {
+              var element = document.querySelector("#".concat(id));
+
+              if (!element) {
+                return;
+              }
+
+              if (scrollTop >= element.offsetTop - 500) {
+                document.querySelector(".".concat(id, "-anchor")).classList.add('active');
+              } else {
+                document.querySelector(".".concat(id, "-anchor")).classList.remove('active');
+              }
+            });
+          }
+        }]);
+
+        return _msgs;
+      }();
+
+      _msgs.ɵfac = function msgs_Factory(t) {
+        return new (t || _msgs)(_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_ngrx_store__WEBPACK_IMPORTED_MODULE_1__.Store));
+      };
+
+      _msgs.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({
+        type: _msgs,
+        selectors: [["messages"]],
+        viewQuery: function msgs_Query(rf, ctx) {
+          if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵviewQuery"](_c0, 7);
+          }
+
+          if (rf & 2) {
+            var _t;
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵloadQuery"]()) && (ctx.welcomeRight = _t.first);
+          }
+        },
+        decls: 14,
+        vars: 0,
+        consts: [[1, "messages"], [1, "app-welcome-left"], [1, "intro-anchor", "active", 3, "click"], [1, "app-welcome-right", 3, "scroll"], ["welcomeRight", ""], ["id", "intro"], ["id", "text1"]],
+        template: function msgs_Template(rf, ctx) {
+          if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](1, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](2, "h3");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](3, "Pages");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](4, "ul");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](5, "li", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function msgs_Template_li_click_5_listener() {
+              return ctx.scrollTo("intro");
+            });
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6, "\u26AB Intro ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "div", 3, 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("scroll", function msgs_Template_div_scroll_7_listener($event) {
+              return ctx.onScroll($event);
+            });
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](9, "div", 5);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](10, "h1");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](11, "Welcome Agent Augustus");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](12, "span", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](13, " How are you doing this fine day? ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+          }
+        },
+        encapsulation: 2,
+        changeDetection: 0
+      });
+      /***/
+    },
+
+    /***/
     57594: function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
       "use strict";
 
@@ -2515,16 +2721,16 @@
         }, {
           key: "ngAfterViewInit",
           value: function ngAfterViewInit() {
-            var _this2 = this;
+            var _this3 = this;
 
             var _this$page$nativeElem = this.page.nativeElement,
                 contentDocument = _this$page$nativeElem.contentDocument,
                 contentWindow = _this$page$nativeElem.contentWindow;
             contentDocument.designMode = 'On';
             contentDocument.body.addEventListener('selectstart', function (_) {
-              clearTimeout(_this2.selectionTimeout);
-              _this2.selectionTimeout = setTimeout(function () {
-                return _this2.handlePageSelection(contentWindow.getSelection());
+              clearTimeout(_this3.selectionTimeout);
+              _this3.selectionTimeout = setTimeout(function () {
+                return _this3.handlePageSelection(contentWindow.getSelection());
               }, 100);
             });
           }
@@ -3516,11 +3722,11 @@
         }, {
           key: "onScroll",
           value: function onScroll($event) {
-            var _this3 = this;
+            var _this4 = this;
 
             clearTimeout(this.scrollTimeout);
             this.scrollTimeout = setTimeout(function () {
-              _this3.afterScroll($event.target.scrollTop);
+              _this4.afterScroll($event.target.scrollTop);
             }, 100);
           }
         }, {
@@ -4262,60 +4468,60 @@
         }, {
           key: "animateIn",
           value: function animateIn() {
-            var _this4 = this;
+            var _this5 = this;
 
             this.randomizedTimeout = setTimeout(function () {
-              return _this4.randomizeLoader();
+              return _this5.randomizeLoader();
             }, 100 * this.randomizedCount);
             setTimeout(function () {
-              clearTimeout(_this4.randomizedTimeout);
+              clearTimeout(_this5.randomizedTimeout);
             }, 2400);
             window.requestAnimationFrame(function () {
-              _this4.desktopAnimation = new gsap__WEBPACK_IMPORTED_MODULE_11__.TimelineMax({
+              _this5.desktopAnimation = new gsap__WEBPACK_IMPORTED_MODULE_11__.TimelineMax({
                 paused: true,
                 reversed: false
               });
 
-              _this4.desktopAnimation.to(_this4.desktop, 1, {
+              _this5.desktopAnimation.to(_this5.desktop, 1, {
                 opacity: '1',
                 ease: 'Expo.easeInOut'
               }, 0);
 
-              _this4.desktopAnimation.to(_this4.background, 1, {
+              _this5.desktopAnimation.to(_this5.background, 1, {
                 opacity: '.5',
                 ease: 'Expo.easeInOut'
               }, 1);
 
-              _this4.desktopAnimation.to(_this4.background, 1, {
+              _this5.desktopAnimation.to(_this5.background, 1, {
                 scale: '4',
                 ease: 'Expo.easeInOut'
               }, 2);
 
-              _this4.desktopAnimation.play();
+              _this5.desktopAnimation.play();
 
               setTimeout(function () {
-                _this4.showIcons = true;
+                _this5.showIcons = true;
 
-                _this4.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.createApp)({
+                _this5.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.createApp)({
                   app: _constants_applications__WEBPACK_IMPORTED_MODULE_2__.APPLICATIONS.console
                 }));
 
                 setTimeout(function () {
-                  _this4.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.setConsoleMessage)({
+                  _this5.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.setConsoleMessage)({
                     message: new _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_3__.ConsoleMessage('[DESKTOP]', "<b>WELCOME USER</b>")
                   }));
 
-                  _this4.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.setConsoleMessage)({
+                  _this5.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.setConsoleMessage)({
                     message: new _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_3__.ConsoleMessage('[DESKTOP]', "<b>LOADING...</b>")
                   }));
                 }, 1000);
                 setTimeout(function () {
-                  _this4.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.setAppMinified)({
+                  _this5.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.setAppMinified)({
                     app: _constants_applications__WEBPACK_IMPORTED_MODULE_2__.APPLICATIONS.console,
                     minified: true
                   }));
 
-                  _this4.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.createApp)({
+                  _this5.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.createApp)({
                     app: _constants_applications__WEBPACK_IMPORTED_MODULE_2__.APPLICATIONS.welcome
                   }));
                 }, 2000);
@@ -4346,13 +4552,13 @@
         }, {
           key: "randomizeLoader",
           value: function randomizeLoader() {
-            var _this5 = this;
+            var _this6 = this;
 
             this.currentIcon = this.getRandomInt(0, this.icons.length - 1);
             this.cd.detectChanges();
             clearTimeout(this.randomizedTimeout);
             this.randomizedTimeout = setTimeout(function () {
-              return _this5.randomizeLoader();
+              return _this6.randomizeLoader();
             }, 10 * ++this.randomizedCount);
           }
         }, {
@@ -4657,7 +4863,7 @@
 
       var _LoaderComponent = /*#__PURE__*/function () {
         function _LoaderComponent(store$) {
-          var _this6 = this;
+          var _this7 = this;
 
           _classCallCheck(this, _LoaderComponent);
 
@@ -4669,7 +4875,7 @@
           this.subs = [];
           this.subs.push(this.loadingMessage$.pipe((0, rxjs_operators__WEBPACK_IMPORTED_MODULE_5__.skip)(1)).subscribe(function (next) {
             setTimeout(function () {
-              return _this6.loader.scrollTop = _this6.loader.scrollHeight + 500;
+              return _this7.loader.scrollTop = _this7.loader.scrollHeight + 500;
             }, 100);
           }));
         }
@@ -4700,35 +4906,35 @@
         }, {
           key: "animateLoader",
           value: function animateLoader() {
-            var _this7 = this;
+            var _this8 = this;
 
             window.requestAnimationFrame(function () {
-              _this7.loaderAnimation = new gsap__WEBPACK_IMPORTED_MODULE_6__.TimelineMax({
+              _this8.loaderAnimation = new gsap__WEBPACK_IMPORTED_MODULE_6__.TimelineMax({
                 paused: true,
                 reversed: false
               });
 
-              _this7.loaderAnimation.to(_this7.loader, 1, {
+              _this8.loaderAnimation.to(_this8.loader, 1, {
                 opacity: '1',
                 ease: 'Expo.easeInOut'
               }, 0);
 
-              _this7.loaderAnimation.play();
+              _this8.loaderAnimation.play();
             });
           }
         }, {
           key: "animateSpinner",
           value: function animateSpinner() {
-            var _this8 = this;
+            var _this9 = this;
 
             window.requestAnimationFrame(function () {
-              if (_this8.currentSpinnerStep >= _this8.spinnerSteps.length) {
-                _this8.currentSpinnerStep = 0;
+              if (_this9.currentSpinnerStep >= _this9.spinnerSteps.length) {
+                _this9.currentSpinnerStep = 0;
               }
 
-              _this8.spinner.innerHTML = _this8.spinnerSteps[_this8.currentSpinnerStep++];
+              _this9.spinner.innerHTML = _this9.spinnerSteps[_this9.currentSpinnerStep++];
               setTimeout(function () {
-                _this8.animateSpinner();
+                _this9.animateSpinner();
               }, 200);
             });
           }
@@ -5091,21 +5297,21 @@
         }, {
           key: "animateIn",
           value: function animateIn() {
-            var _this9 = this;
+            var _this10 = this;
 
             window.requestAnimationFrame(function () {
-              _this9.menuAnimation = new gsap__WEBPACK_IMPORTED_MODULE_7__.TimelineMax({
+              _this10.menuAnimation = new gsap__WEBPACK_IMPORTED_MODULE_7__.TimelineMax({
                 paused: true,
                 reversed: false
               });
 
-              _this9.menuAnimation.to(_this9.menu, 1, {
+              _this10.menuAnimation.to(_this10.menu, 1, {
                 y: '0',
                 ease: 'Expo.easeInOut',
                 delay: 2
               }, 0);
 
-              _this9.menuAnimation.play();
+              _this10.menuAnimation.play();
             });
           }
         }, {
@@ -5545,13 +5751,13 @@
         }, {
           key: "ngAfterViewInit",
           value: function ngAfterViewInit() {
-            var _this10 = this;
+            var _this11 = this;
 
             this.animateIn();
             this.dateInterval = setInterval(function () {
-              _this10.date = new Date();
+              _this11.date = new Date();
 
-              _this10.cd.detectChanges();
+              _this11.cd.detectChanges();
             }, 1000 / 60);
           }
         }, {
@@ -5562,21 +5768,21 @@
         }, {
           key: "animateIn",
           value: function animateIn() {
-            var _this11 = this;
+            var _this12 = this;
 
             window.requestAnimationFrame(function () {
-              _this11.taskbarAnimation = new gsap__WEBPACK_IMPORTED_MODULE_7__.TimelineMax({
+              _this12.taskbarAnimation = new gsap__WEBPACK_IMPORTED_MODULE_7__.TimelineMax({
                 paused: true,
                 reversed: false
               });
 
-              _this11.taskbarAnimation.to(_this11.taskbar, 1, {
+              _this12.taskbarAnimation.to(_this12.taskbar, 1, {
                 y: '0',
                 ease: 'Expo.easeInOut',
                 delay: 2
               }, 0);
 
-              _this11.taskbarAnimation.play();
+              _this12.taskbarAnimation.play();
             });
           }
         }, {
@@ -6078,54 +6284,54 @@
         }, {
           key: "animateIn",
           value: function animateIn() {
-            var _this12 = this;
+            var _this13 = this;
 
             if (this.windowAnimation && this.windowAnimation.progress() === 1) {
               return;
             }
 
             window.requestAnimationFrame(function () {
-              _this12.windowAnimation = new gsap__WEBPACK_IMPORTED_MODULE_7__.TimelineMax({
+              _this13.windowAnimation = new gsap__WEBPACK_IMPORTED_MODULE_7__.TimelineMax({
                 paused: true,
                 reversed: false
               });
 
-              _this12.windowAnimation.to(_this12.windowEl, .25, {
+              _this13.windowAnimation.to(_this13.windowEl, .25, {
                 opacity: '1',
                 ease: 'Expo.easeInOut'
               }, 0);
 
-              _this12.windowAnimation.play();
+              _this13.windowAnimation.play();
 
-              if (_this12.currentWindow.properties.draggable) {
-                _this12.draggableRef = gsap_Draggable__WEBPACK_IMPORTED_MODULE_8__["default"].create(_this12.windowEl, {
+              if (_this13.currentWindow.properties.draggable) {
+                _this13.draggableRef = gsap_Draggable__WEBPACK_IMPORTED_MODULE_8__["default"].create(_this13.windowEl, {
                   type: 'x,y',
                   edgeResistance: 0.65,
-                  trigger: _this12.windowEl.querySelector('.window-toolbar'),
+                  trigger: _this13.windowEl.querySelector('.window-toolbar'),
                   bounds: '.desktop',
                   inertia: true,
                   onClick: function onClick() {
-                    return _this12.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.setAppFocus)({
-                      app: _this12.currentWindow,
+                    return _this13.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.setAppFocus)({
+                      app: _this13.currentWindow,
                       focus: true
                     }));
                   },
                   onDragStart: function onDragStart() {
-                    return _this12.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.setAppFocus)({
-                      app: _this12.currentWindow,
+                    return _this13.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.setAppFocus)({
+                      app: _this13.currentWindow,
                       focus: true
                     }));
                   },
                   onRelease: function onRelease(e) {
-                    return _this12.draggableRef.endDrag(e);
+                    return _this13.draggableRef.endDrag(e);
                   }
                 })[0];
 
-                _this12.handleChanges(_this12.currentWindow.properties.fullScreen);
+                _this13.handleChanges(_this13.currentWindow.properties.fullScreen);
               }
 
               setTimeout(function () {
-                _this12.cd.detectChanges();
+                _this13.cd.detectChanges();
               }, 0);
             });
           }
@@ -6359,6 +6565,12 @@
       var _applications_random_name_generator_random_name_generator__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
       /*! @applications/random-name-generator/random-name-generator */
       95800);
+      /* harmony import */
+
+
+      var _applications_messaging_messages_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+      /*! @applications/messaging/messages.component */
+      4600);
 
       var explorer = new _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_3__.Application({
         title: 'File explorer',
@@ -6536,6 +6748,22 @@
           paths: [_constants_filesystem__WEBPACK_IMPORTED_MODULE_5__.fs.getPath(_constants_filesystem__WEBPACK_IMPORTED_MODULE_5__.FS_PATH_MAPPING.APPLICATION), _constants_filesystem__WEBPACK_IMPORTED_MODULE_5__.fs.getPath(_constants_filesystem__WEBPACK_IMPORTED_MODULE_5__.FS_PATH_MAPPING.GAMES)]
         }
       });
+      var messages = new _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_3__.Application({
+        title: 'Messages',
+        component: 'msgsComponent',
+        alt: 'Who is Princeps Augustus?',
+        icon: 'msgs',
+        iconContrast: 'msgs',
+        fullScreen: false,
+        size: {
+          width: '1000px',
+          height: '800px'
+        },
+        fs: {
+          category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_3__.APPLICATION_CATEGORY.INFO,
+          paths: [_constants_filesystem__WEBPACK_IMPORTED_MODULE_5__.fs.getPath(_constants_filesystem__WEBPACK_IMPORTED_MODULE_5__.FS_PATH_MAPPING.APPLICATION), _constants_filesystem__WEBPACK_IMPORTED_MODULE_5__.fs.getPath(_constants_filesystem__WEBPACK_IMPORTED_MODULE_5__.FS_PATH_MAPPING.INFO), _constants_filesystem__WEBPACK_IMPORTED_MODULE_5__.fs.getPath(_constants_filesystem__WEBPACK_IMPORTED_MODULE_5__.FS_PATH_MAPPING.DESKTOP)]
+        }
+      });
       var randomNameGenerator = new _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_3__.Application({
         title: 'Random Name Generator',
         component: 'RandomNameGeneratorComponent',
@@ -6563,7 +6791,8 @@
         explorer: explorer,
         textEditor: textEditor,
         knightsAndMonsters: knightsAndMonsters,
-        randomNameGenerator: randomNameGenerator
+        randomNameGenerator: randomNameGenerator,
+        messages: messages
       };
       var _applicationMapping = {
         'WelcomeComponent': _applications_welcome_welcome_component__WEBPACK_IMPORTED_MODULE_4__.WelcomeComponent,
@@ -6572,7 +6801,8 @@
         'FileExplorerComponent': _applications_file_explorer_file_explorer_component__WEBPACK_IMPORTED_MODULE_2__.FileExplorerComponent,
         'TextEditorComponent': _applications_text_editor_text_editor_component__WEBPACK_IMPORTED_MODULE_6__.TextEditorComponent,
         'KnightsAndMonstersComponent': _applications_knights_and_monsters_knights_and_monsters_component__WEBPACK_IMPORTED_MODULE_7__.KnightsAndMonstersComponent,
-        'RandomNameGeneratorComponent': _applications_random_name_generator_random_name_generator__WEBPACK_IMPORTED_MODULE_8__.RandomNameGeneratorComponent
+        'RandomNameGeneratorComponent': _applications_random_name_generator_random_name_generator__WEBPACK_IMPORTED_MODULE_8__.RandomNameGeneratorComponent,
+        'messages': _applications_messaging_messages_component__WEBPACK_IMPORTED_MODULE_9__.msgs
       };
       /***/
     },
@@ -6640,6 +6870,11 @@
         },
         home: {
           path: 'home.svg',
+          loaded: false,
+          resource: null
+        },
+        msgs: {
+          path: 'messages.svg',
           loaded: false,
           resource: null
         },
@@ -7127,7 +7362,7 @@
           alt: 'My personal profile on itch.io',
           category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_0__.FILE_CATEGORY.LINK,
           data: {
-            url: 'https://amazingsuprise.itch.io/'
+            url: ''
           },
           icon: 'itch',
           iconContrast: 'itch'
@@ -7142,7 +7377,7 @@
           alt: 'Videos about game prototypes',
           category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_0__.FILE_CATEGORY.LINK,
           data: {
-            url: 'https://www.youtube.com/channel/UC7NzbI1ti8ePGzmOkX5byTA'
+            url: ''
           },
           icon: 'youtube',
           iconContrast: 'youtube'
@@ -7157,7 +7392,7 @@
           alt: 'My codin game profile',
           category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_0__.FILE_CATEGORY.LINK,
           data: {
-            url: 'https://www.codingame.com/profile/a854de0c07f757bbde5aba79f11aecf21492014'
+            url: ''
           },
           icon: 'codingame',
           iconContrast: 'codingame'
@@ -7172,7 +7407,7 @@
           alt: 'Checkout my DEV.to profile!',
           category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_0__.FILE_CATEGORY.LINK,
           data: {
-            url: 'https://dev.to/nicolalc'
+            url: 'https://dev.to/capr0'
           },
           icon: 'devTo',
           iconContrast: 'devTo'
@@ -7187,7 +7422,7 @@
           alt: 'Checkout my Linkedin profile!',
           category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_0__.FILE_CATEGORY.LINK,
           data: {
-            url: 'https://www.linkedin.com/in/nicola-castellani-313b9084/'
+            url: 'https://www.linkedin.com/in/abhik-choudhary-4a1b76206/'
           },
           icon: 'linkedin',
           iconContrast: 'linkedin'
@@ -7202,7 +7437,7 @@
           alt: 'Checkout my Twitter profile!',
           category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_0__.FILE_CATEGORY.LINK,
           data: {
-            url: 'https://twitter.com/amazingsurpr1se'
+            url: ''
           },
           icon: 'twitterIcon',
           iconContrast: 'twitterIcon'
@@ -7217,7 +7452,7 @@
           alt: 'Checkout my Reddit profile!',
           category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_0__.FILE_CATEGORY.LINK,
           data: {
-            url: 'https://www.reddit.com/user/AmazingSurprise'
+            url: ''
           },
           icon: 'redditIcon',
           iconContrast: 'redditIcon'
@@ -7232,7 +7467,7 @@
           alt: 'Checkout my HackerNoon profile!',
           category: _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_0__.FILE_CATEGORY.LINK,
           data: {
-            url: 'https://hackernoon.com/u/nicolacastellanidev'
+            url: ''
           },
           icon: 'hackernoonIcon',
           iconContrast: 'hackernoonIcon'
@@ -7408,25 +7643,25 @@
         }, {
           key: "animateIn",
           value: function animateIn() {
-            var _this13 = this;
+            var _this14 = this;
 
             window.requestAnimationFrame(function () {
-              _this13.itemAnimation = new gsap__WEBPACK_IMPORTED_MODULE_0__.TimelineMax({
+              _this14.itemAnimation = new gsap__WEBPACK_IMPORTED_MODULE_0__.TimelineMax({
                 paused: true,
                 reversed: false
               });
 
-              _this13.itemAnimation.to(_this13.viewContainerRef.element.nativeElement, 1, {
+              _this14.itemAnimation.to(_this14.viewContainerRef.element.nativeElement, 1, {
                 opacity: 1,
                 ease: 'Expo.easeInOut'
               }, 0);
 
-              _this13.itemAnimation.to(_this13.viewContainerRef.element.nativeElement, .75, {
+              _this14.itemAnimation.to(_this14.viewContainerRef.element.nativeElement, .75, {
                 y: 0,
                 ease: 'Expo.easeInOut'
               }, 0);
 
-              _this13.itemAnimation.play();
+              _this14.itemAnimation.play();
             });
           }
         }]);
@@ -7541,25 +7776,25 @@
         }, {
           key: "animateIn",
           value: function animateIn() {
-            var _this14 = this;
+            var _this15 = this;
 
             window.requestAnimationFrame(function () {
-              _this14.itemAnimation = new gsap__WEBPACK_IMPORTED_MODULE_0__.TimelineMax({
+              _this15.itemAnimation = new gsap__WEBPACK_IMPORTED_MODULE_0__.TimelineMax({
                 paused: true,
                 reversed: false
               });
 
-              _this14.itemAnimation.to(_this14.viewContainerRef.element.nativeElement, 1, {
+              _this15.itemAnimation.to(_this15.viewContainerRef.element.nativeElement, 1, {
                 opacity: 1,
                 ease: 'Expo.easeInOut'
               }, 0);
 
-              _this14.itemAnimation.to(_this14.viewContainerRef.element.nativeElement, .75, {
+              _this15.itemAnimation.to(_this15.viewContainerRef.element.nativeElement, .75, {
                 y: 0,
                 ease: 'Expo.easeInOut'
               }, 0);
 
-              _this14.itemAnimation.play();
+              _this15.itemAnimation.play();
             });
           }
         }]);
@@ -7634,20 +7869,20 @@
         }, {
           key: "animateIn",
           value: function animateIn() {
-            var _this15 = this;
+            var _this16 = this;
 
             window.requestAnimationFrame(function () {
-              _this15.itemAnimation = new gsap__WEBPACK_IMPORTED_MODULE_0__.TimelineMax({
+              _this16.itemAnimation = new gsap__WEBPACK_IMPORTED_MODULE_0__.TimelineMax({
                 paused: true,
                 reversed: false
               });
 
-              _this15.itemAnimation.to(_this15.viewContainerRef.element.nativeElement, 1, {
+              _this16.itemAnimation.to(_this16.viewContainerRef.element.nativeElement, 1, {
                 opacity: 1,
                 ease: 'Expo.easeInOut'
               }, 0);
 
-              _this15.itemAnimation.play();
+              _this16.itemAnimation.play();
             });
           }
         }]);
@@ -8069,12 +8304,12 @@
         _createClass(_AssetsService, [{
           key: "getAll",
           value: function getAll() {
-            var _this16 = this;
+            var _this17 = this;
 
             var keys = Object.keys(this.assetsToLoad);
             var calls = [];
             keys.map(function (assetKey) {
-              return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(_this16, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+              return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(_this17, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
                 return regeneratorRuntime.wrap(function _callee$(_context) {
                   while (1) {
                     switch (_context.prev = _context.next) {
@@ -8091,29 +8326,29 @@
             });
             return (0, rxjs__WEBPACK_IMPORTED_MODULE_3__.forkJoin)(calls).pipe((0, rxjs_operators__WEBPACK_IMPORTED_MODULE_4__.map)(function (results) {
               keys.map(function (key, index) {
-                return _this16.assetsToLoad[key] = Object.assign(Object.assign({}, _this16.assetsToLoad[key]), {
+                return _this17.assetsToLoad[key] = Object.assign(Object.assign({}, _this17.assetsToLoad[key]), {
                   loaded: true,
                   resource: results[index]
                 });
               });
-              return _this16.assetsToLoad;
+              return _this17.assetsToLoad;
             }));
           }
         }, {
           key: "loadAsset",
           value: function loadAsset(assetKey) {
-            var _this17 = this;
+            var _this18 = this;
 
             return this.http.get("assets/".concat(this.assetsToLoad[assetKey].path), {
               responseType: 'text'
             }).pipe((0, rxjs_operators__WEBPACK_IMPORTED_MODULE_5__.switchMap)(function (res) {
-              _this17.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.setLoadingMessage)({
+              _this18.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.setLoadingMessage)({
                 message: "<i><pre>[200]</pre> LOADED </i>: ".concat(assetKey)
               }));
 
               return (0, rxjs__WEBPACK_IMPORTED_MODULE_6__.of)(res);
             }), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.catchError)(function (err) {
-              _this17.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.setLoadingMessage)({
+              _this18.store$.dispatch((0, _store_app_actions__WEBPACK_IMPORTED_MODULE_1__.setLoadingMessage)({
                 message: "<small>ERROR</small>: ".concat(assetKey, " - <small>").concat(err.status, " - ").concat(err.statusText, "</small>")
               }));
 
@@ -8188,7 +8423,7 @@
 
       var _ThemeService = /*#__PURE__*/function () {
         function _ThemeService(store$) {
-          var _this18 = this;
+          var _this19 = this;
 
           _classCallCheck(this, _ThemeService);
 
@@ -8198,7 +8433,7 @@
           this.subs.push(this.appSettings$.pipe((0, rxjs_operators__WEBPACK_IMPORTED_MODULE_2__.first)(), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_3__.map)(function (_ref6) {
             var theme = _ref6.theme;
 
-            _this18.setTheme(theme);
+            _this19.setTheme(theme);
           })).subscribe());
         }
 
@@ -8305,14 +8540,14 @@
 
       var _UtilityService = /*#__PURE__*/function () {
         function _UtilityService(store$) {
-          var _this19 = this;
+          var _this20 = this;
 
           _classCallCheck(this, _UtilityService);
 
           this.store$ = store$;
           this.isMobile = new rxjs__WEBPACK_IMPORTED_MODULE_4__.BehaviorSubject(false);
           window.addEventListener('resize', function () {
-            return _this19.onWindowResize();
+            return _this20.onWindowResize();
           });
           this.onWindowResize();
         }
@@ -8647,7 +8882,7 @@
       67278);
 
       var _AppEffects = function _AppEffects(store$, actions$, assetsService, themeService, utility) {
-        var _this20 = this;
+        var _this21 = this;
 
         _classCallCheck(this, _AppEffects);
 
@@ -8657,17 +8892,17 @@
         this.themeService = themeService;
         this.utility = utility;
         this.loadAssets$ = (0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.createEffect)(function () {
-          return _this20.actions$.pipe((0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.ofType)(_app_actions__WEBPACK_IMPORTED_MODULE_0__.loadAssets), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.withLatestFrom)(_this20.store$.pipe((0, _ngrx_store__WEBPACK_IMPORTED_MODULE_8__.select)(_app_reducer__WEBPACK_IMPORTED_MODULE_1__.selectLoadedAssets))), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_9__.switchMap)(function (_ref7) {
+          return _this21.actions$.pipe((0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.ofType)(_app_actions__WEBPACK_IMPORTED_MODULE_0__.loadAssets), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.withLatestFrom)(_this21.store$.pipe((0, _ngrx_store__WEBPACK_IMPORTED_MODULE_8__.select)(_app_reducer__WEBPACK_IMPORTED_MODULE_1__.selectLoadedAssets))), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_9__.switchMap)(function (_ref7) {
             var _ref8 = _slicedToArray(_ref7, 2),
                 action = _ref8[0],
                 loadedAssets = _ref8[1];
 
-            _this20.store$.dispatch((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setLoadingMessage)({
+            _this21.store$.dispatch((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setLoadingMessage)({
               message: 'Loading website assets.'
             }));
 
             if (loadedAssets) {
-              _this20.store$.dispatch((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setLoadingMessage)({
+              _this21.store$.dispatch((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setLoadingMessage)({
                 message: '<b>Loading</b> done.'
               }));
 
@@ -8675,8 +8910,8 @@
                 loadedAssets: loadedAssets
               })];
             } else {
-              return _this20.assetsService.getAll().pipe((0, rxjs_operators__WEBPACK_IMPORTED_MODULE_9__.switchMap)(function (assets) {
-                _this20.store$.dispatch((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setLoadingMessage)({
+              return _this21.assetsService.getAll().pipe((0, rxjs_operators__WEBPACK_IMPORTED_MODULE_9__.switchMap)(function (assets) {
+                _this21.store$.dispatch((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setLoadingMessage)({
                   message: '<b>Loading</b> done.'
                 }));
 
@@ -8690,10 +8925,10 @@
           }));
         });
         this.createApp$ = (0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.createEffect)(function () {
-          return _this20.actions$.pipe((0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.ofType)(_app_actions__WEBPACK_IMPORTED_MODULE_0__.createApp), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_12__.map)(function (_ref9) {
+          return _this21.actions$.pipe((0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.ofType)(_app_actions__WEBPACK_IMPORTED_MODULE_0__.createApp), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_12__.map)(function (_ref9) {
             var app = _ref9.app;
 
-            _this20.store$.dispatch((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setConsoleMessage)({
+            _this21.store$.dispatch((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setConsoleMessage)({
               message: new _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_2__.ConsoleMessage('[OS]', "<b>New app created</b>: ".concat(app.properties.title))
             }));
           }));
@@ -8701,10 +8936,10 @@
           dispatch: false
         });
         this.closeApp$ = (0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.createEffect)(function () {
-          return _this20.actions$.pipe((0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.ofType)(_app_actions__WEBPACK_IMPORTED_MODULE_0__.closeApp), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_12__.map)(function (_ref10) {
+          return _this21.actions$.pipe((0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.ofType)(_app_actions__WEBPACK_IMPORTED_MODULE_0__.closeApp), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_12__.map)(function (_ref10) {
             var app = _ref10.app;
 
-            _this20.store$.dispatch((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setConsoleMessage)({
+            _this21.store$.dispatch((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setConsoleMessage)({
               message: new _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_2__.ConsoleMessage('[OS]', "<b>app closed</b>: ".concat(app.properties.title))
             }));
           }));
@@ -8712,10 +8947,10 @@
           dispatch: false
         });
         this.setAppFullScreen$ = (0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.createEffect)(function () {
-          return _this20.actions$.pipe((0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.ofType)(_app_actions__WEBPACK_IMPORTED_MODULE_0__.setAppFullscreen), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_12__.map)(function (_ref11) {
+          return _this21.actions$.pipe((0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.ofType)(_app_actions__WEBPACK_IMPORTED_MODULE_0__.setAppFullscreen), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_12__.map)(function (_ref11) {
             var app = _ref11.app;
 
-            _this20.store$.dispatch((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setConsoleMessage)({
+            _this21.store$.dispatch((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setConsoleMessage)({
               message: new _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_2__.ConsoleMessage('[OS]', "<b>Application</b> <i>".concat(app.properties.title, "</i> is now on fullscreen <small>[").concat(app.properties.fullScreen, "]</small>"))
             }));
           }));
@@ -8723,10 +8958,10 @@
           dispatch: false
         });
         this.setAppFocus$ = (0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.createEffect)(function () {
-          return _this20.actions$.pipe((0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.ofType)(_app_actions__WEBPACK_IMPORTED_MODULE_0__.setAppFocus), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_12__.map)(function (_ref12) {
+          return _this21.actions$.pipe((0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.ofType)(_app_actions__WEBPACK_IMPORTED_MODULE_0__.setAppFocus), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_12__.map)(function (_ref12) {
             var app = _ref12.app;
 
-            _this20.store$.dispatch((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setConsoleMessage)({
+            _this21.store$.dispatch((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setConsoleMessage)({
               message: new _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_2__.ConsoleMessage('[OS]', "<b>Application</b> <i>".concat(app.properties.title, "</i> is now on focus <small>[").concat(app.properties.focus, "]</small>"))
             }));
           }));
@@ -8734,10 +8969,10 @@
           dispatch: false
         });
         this.setAppMinified$ = (0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.createEffect)(function () {
-          return _this20.actions$.pipe((0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.ofType)(_app_actions__WEBPACK_IMPORTED_MODULE_0__.setAppMinified), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_12__.map)(function (_ref13) {
+          return _this21.actions$.pipe((0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.ofType)(_app_actions__WEBPACK_IMPORTED_MODULE_0__.setAppMinified), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_12__.map)(function (_ref13) {
             var app = _ref13.app;
 
-            _this20.store$.dispatch((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setConsoleMessage)({
+            _this21.store$.dispatch((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setConsoleMessage)({
               message: new _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_2__.ConsoleMessage('[OS]', "<b>Application</b> <i>".concat(app.properties.title, "</i> is now on minified <small>[").concat(app.properties.minified, "]</small>"))
             }));
           }));
@@ -8745,19 +8980,19 @@
           dispatch: false
         });
         this.setTheme$ = (0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.createEffect)(function () {
-          return _this20.actions$.pipe((0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.ofType)(_app_actions__WEBPACK_IMPORTED_MODULE_0__.setTheme), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_9__.switchMap)(function (_ref14) {
+          return _this21.actions$.pipe((0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.ofType)(_app_actions__WEBPACK_IMPORTED_MODULE_0__.setTheme), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_9__.switchMap)(function (_ref14) {
             var theme = _ref14.theme;
 
-            _this20.themeService.setTheme(theme);
+            _this21.themeService.setTheme(theme);
 
             return (0, rxjs__WEBPACK_IMPORTED_MODULE_10__.of)((0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.toggleTaskbarThemeSelector)());
           }));
         });
         this.openFile$ = (0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.createEffect)(function () {
-          return _this20.actions$.pipe((0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.ofType)(_app_actions__WEBPACK_IMPORTED_MODULE_0__.openFile), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_9__.switchMap)(function (_ref15) {
+          return _this21.actions$.pipe((0, _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__.ofType)(_app_actions__WEBPACK_IMPORTED_MODULE_0__.openFile), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_9__.switchMap)(function (_ref15) {
             var file = _ref15.file;
 
-            _this20.utility.openFile(file);
+            _this21.utility.openFile(file);
 
             return [(0, _app_actions__WEBPACK_IMPORTED_MODULE_0__.setConsoleMessage)({
               message: new _interfaces_interfaces__WEBPACK_IMPORTED_MODULE_2__.ConsoleMessage('[OS]', "<b>Opening file:</b> <i>".concat(file.properties.name, "</i>"))
